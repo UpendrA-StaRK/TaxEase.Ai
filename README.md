@@ -27,40 +27,54 @@ Maximize your deductions, receive tax-saving tips, and clarify tax-related queri
 Submit your tax return **securely and accurately** with just a few clicks.  
 Our system auto-verifies details, minimizes errors, and ensures **compliance with Indian tax regulations**, making tax filing stress-free and efficient.
 
-![AI-Driven Tax Optimization](./assets/interactive-dashboard.png)
+<p align="center">
+  <img src="./assets/interactive-dashboard.png" alt="AI-Driven Tax Optimization">
+</p>
 
 ## Features
 
-![Features](./assets/features.png)
+<p align="center">
+  <img src="./assets/features.png" alt="Features">
+</p>
 
 - **AI-Powered Tax Recommendations**
   - Uses machine learning models to analyze financial data.
   - Provides personalized recommendations for maximizing tax deductions.
 
-![Taxify.AI](./assets/taxify-ai.png)
+<p align="center">
+  <img src="./assets/taxify-ai.png" alt="Taxify.AI">
+</p>
 
 - **PAN Card Authentication**
   - Streamlines the registration process while ensuring robust security and compliance.
   - Leverages a government-issued identifier to significantly reduce fraud and simplify user onboarding.
 
-![Home Page](./assets/home-page.png)
+<p align="center">
+  <img src="./assets/home-page.png" alt="Home Page">
+</p>
 
 - **Multi-Platform Access**
   - Automatically syncs your tax data in real time across all devices.
   - Provides a responsive interface that adapts to various screen sizes and resolutions.
 
-![Mobile Access](./assets/mobile.png)
+<p align="center">
+  <img src="./assets/mobile.png" alt="Mobile Access">
+</p>
 
 - **Quick & Easy Filing**
   - Processes user-provided financial data (such as income, expenses, and deductions) and automatically computes tax liabilities, eligible deductions, and potential refunds.
 
-![Document Handling](./assets/document-handling-ocr-integration.png)
+<p align="center">
+  <img src="./assets/document-handling-ocr-integration.png" alt="Document Handling">
+</p>
 
 - **Maximize Your Refund, Minimize Tax Liability**
   - Provides you with an estimated refund amount that reflects maximum possible savings.
   - Automatically identifies all eligible tax deductions and credits based on the latest tax regulations.
 
-![Generating Suggestions](./assets/generating.png) ![Suggestions](./assets/suggestions.png)
+<p align="center">
+  <img src="./assets/generating.png" alt="Generating Suggestions"> <img src="./assets/suggestions.png" alt="Suggestions">
+</p>
 
 ## Tech Stack
 
@@ -111,3 +125,33 @@ Our system auto-verifies details, minimizes errors, and ensures **compliance wit
 We welcome contributions from the community to improve and expand TaxEase.Ai!
 
 Happy coding! 🚀
+
+## Remarks
+
+### Tax Calculation Web App
+
+#### Overview
+
+This was a part of our whole project. The first part was about PAN authentication and login, and the second part was tax calculation with AI suggestions. This is a React-based web application integrated with a backend for automated tax filing using OCR and AI-based tax recommendations. The project was developed using Meta-Llama-3.1-8B-Instruct-Turbo-128K and Streamlit for efficient tax calculations.
+
+#### Known Issue
+
+Despite our best efforts and extensive debugging, the tax calculation page linked to our React app is currently facing dependency issues and conflicts.
+
+**Note:** The application functioned correctly even after submission of our project. However, due to an update in the version of one of our dependencies, these conflicts arose, and clicking on the following buttons does not open the respective pages:
+
+- Get Started
+- Salary Tax
+- Upload PDF
+
+To work around this issue, follow the steps below to run the application locally.
+
+### Installation & Setup (Running Locally)
+
+#### Prerequisites
+
+Ensure that you have the following installed on your system:
+
+- **Node.js & npm** (For React frontend)
+- **Python 3** (For backend services)
+- **Streamlit**
