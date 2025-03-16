@@ -12,7 +12,7 @@ TaxEase.Ai streamlines tax management by:
 
 ## How Does TaxEase Work?
 
-It's quite easy actually! TaxEase simplifies the tax filing process into three simple steps:
+It's  quite easy actually! TaxEase simplifies the tax filing process into three simple steps:
 
 ### ✅ Register with TaxEase  
 Sign up effortlessly using your **PAN card** for a secure and hassle-free experience.  
