@@ -111,33 +111,3 @@ Our system auto-verifies details, minimizes errors, and ensures **compliance wit
 We welcome contributions from the community to improve and expand TaxEase.Ai!
 
 Happy coding! 🚀
-
-## Remarks
-
-### Tax Calculation Web App
-
-#### Overview
-
-This was a part of our whole project. The first part was about PAN authentication and login, and the second part was tax calculation with AI suggestions. This is a React-based web application integrated with a backend for automated tax filing using OCR and AI-based tax recommendations. The project was developed using Meta-Llama-3.1-8B-Instruct-Turbo-128K and Streamlit for efficient tax calculations.
-
-#### Known Issue
-
-Despite our best efforts and extensive debugging, the tax calculation page linked to our React app is currently facing dependency issues and conflicts.
-
-**Note:** The application functioned correctly even after submission of our project. However, due to an update in the version of one of our dependencies, these conflicts arose, and clicking on the following buttons does not open the respective pages:
-
-- Get Started
-- Salary Tax
-- Upload PDF
-
-To work around this issue, follow the steps below to run the application locally.
-
-### Installation & Setup (Running Locally)
-
-#### Prerequisites
-
-Ensure that you have the following installed on your system:
-
-- **Node.js & npm** (For React frontend)
-- **Python 3** (For backend services)
-- **Streamlit**
