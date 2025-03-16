@@ -1,0 +1,22 @@
+:root {
+  --google-blue: #4285F4;
+  --google-red: #EA4335;
+  --google-yellow: #FBBC05;
+  --google-green: #34A853;
+  --google-gray: #5F6368;
+  --google-bg: #FFFFFF;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--google-bg);
+  color: var(--google-gray);
+}
+code {
+  font-family: 'Roboto Mono', Menlo, Monaco, Consolas, 'Courier New', monospace;
+  background-color: #F1F3F4; /* Light gray, similar to Google's code blocks */
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #202124; /* Google's dark gray text */
+}
+
