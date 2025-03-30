@@ -73,7 +73,7 @@ function Home() {
                         <p className='headpara'> Submit your tax return securely and hassle-free.</p>
                         <br />
                         <div style={{ display: 'flex', gap: '20px' }}>
-                        <a href='https://taxassistantapp-ngw3e9zhm2qrsp3rmtaye6.streamlit.app/' target='_blank' rel='noopener noreferrer'>
+                        <a href='https://taxeaseapp-wkgmco54264gehtyqla6of.streamlit.app/' target='_blank' rel='noopener noreferrer'>
   <button 
     id='buttontwo' 
     style={{
